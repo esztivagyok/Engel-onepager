@@ -1,0 +1,335 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgb(36, 57, 68);
+}
+
+/*========Header-Navbar CSS========*/
+
+.header {
+  min-height: 50px;
+  background-color:rgb(239, 201, 175);
+  border-radius: 10px;
+  margin: 10px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ngoLogo{
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+  
+}
+
+.ngo {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+  font-family: 'Abel', sans-serif;
+  font-size: 3em;
+  color: rgb(36, 57, 68);
+}
+
+.navbar{
+  display: inline-flex;
+  justify-content: center;
+  text-decoration: none;
+  font-family: 'Abel', sans-serif;
+  font-size: 4em;
+  color: rgb(36, 57, 68);
+  padding: 10px 15px;
+}
+
+.optBtn{ 
+  border-radius: 8px;
+  border: none;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  font-family: 'Abel', sans-serif;
+  font-size: 0.5em;
+  transition-duration: 0.5s;
+  background-color: rgb(239, 201, 175);
+}
+
+.optBtn:hover{
+  background-color: rgb(36, 57, 68);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: rgb(239, 201, 175);
+}
+
+/*========Landing CSS========*/
+
+.landing{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(239, 201, 175);
+  padding: 5px 5px;
+  font-family: 'Abel', sans-serif;
+  color: rgb(36, 57, 68);
+  margin: 10px 100px;
+  height: 80%;
+}
+
+.welcometext{
+  font-family: 'Anton', sans-serif;
+  font-size: 4em;
+  margin: 20px 10px;
+}
+
+/*========Landing-Gallery CSS========*/
+
+.carousel{
+  padding: 1rem;
+  background-color: rgb(36, 57, 68);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border: none;
+  border-radius: 10px;
+  max-width: 85%;
+  
+  margin: 20px 20px;
+}
+
+.images-container{
+  display: flex;
+  gap: 40px;
+  overflow-x: auto;
+}
+
+.aboutBtn{
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+  text-decoration: none;
+  font-family: 'Abel', sans-serif;
+  font-size: 2em;
+  background-color: rgb(239, 201, 175);
+  color: rgb(36, 57, 68);
+  padding: 10px 15px;
+  transition-duration: 0.5s;
+  margin: 50px 20px;
+}
+
+.aboutBtn:hover{
+  background-color: rgb(36, 57, 68);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: rgb(239, 201, 175);
+}
+
+
+/*========About page CSS========*/
+
+.aboutText{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(239, 201, 175);
+  padding: 5px 5px;
+  font-family: 'Abel', sans-serif;
+  color: rgb(36, 57, 68);
+  margin: 10px 100px;
+  transition-duration: 0.5s;
+  height: 98vh;
+}
+
+.aboutTitle{
+  font-family: 'Anton', sans-serif;
+  font-size: 4em;
+}
+
+.aboutDesc{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutDesc h2{
+  font-size: 2em;
+}
+
+.aboutDesc p{
+  font-size: 1.5em;
+}
+
+.aboutDesc ul{
+  font-size: 1.5em;
+  padding: 10px 200px;
+}
+
+.donBtn{
+  display: inline-flex;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Abel', sans-serif;
+  font-size: 2em;
+  background-color: rgb(239, 201, 175);
+  color: rgb(36, 57, 68);
+  padding: 10px 15px;
+  transition-duration: 0.5s;
+}
+
+.donBtn:hover{
+  background-color: rgb(36, 57, 68);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: rgb(239, 201, 175);
+  
+  
+}
+
+/*========Contact page CSS========*/
+
+.dontitle{
+  font-family: 'Anton', sans-serif;
+  font-size: 3em;
+  margin: 20px 10px;
+}
+
+.exitLogo{
+  align-self: center;
+  margin-top: 100px;
+}
+.exitMsg{
+  text-align: center;
+  padding: 100px 0;
+  font-family: 'Abel', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.contactText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(239, 201, 175);
+  padding: 5px 5px;
+  font-family: 'Abel', sans-serif;
+  color: rgb(36, 57, 68);
+  margin: 10px 100px;
+  height: 98vh;
+}
+
+.contactInfo{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5em;
+  padding: 10px 200px;
+}
+
+.form-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5em;
+  padding: 10px 200px;
+}
+
+.submitBtn{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: 'Abel', sans-serif;
+  font-size: 2em;
+  background-color: rgb(239, 201, 175);
+  color: rgb(36, 57, 68);
+  padding: 10px 15px;
+  transition-duration: 0.5s;
+}
+
+.submitBtn:hover{
+  background-color: rgb(36, 57, 68);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: rgb(239, 201, 175);
+}
+
+.inputfield{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 2px;
+  color: rgb(74, 7, 25);
+  font-weight: 400;
+}
+
+.donoptions{
+  margin: 10px 10px;
+}
+
+/*========Footer CSS========*/
+.footer{
+  min-height: 50px;
+  background-color:rgb(239, 201, 175);
+  border-radius: 10px;
+  margin: 10px 100px;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  font-size: 1.3em;
+}
+
+.footer h2{
+  color: rgb(36, 57, 68);
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+  margin: 10px;
+}
+a.youtube {
+  color: #eb3223;
+  margin: 15px;
+}
+a.facebook {
+  color: #4968ad;
+}
+a.twitter {
+  color: #49a1eb;
+}
+a.instagram {
+  color: black;
+}
+a.social:hover {
+  transform: translateY(-2px);
+  font-size: 1.2em;
+}
+
+
+/* ======CUSTOM SCROLLBAR====== */
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(239, 201, 175);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 181, 91);
+  cursor: pointer;
+}
+
